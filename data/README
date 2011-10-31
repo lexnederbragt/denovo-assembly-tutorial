@@ -1,0 +1,17 @@
+Read data sources used during this course:
+
+NOTE SRA stands for Sequence Read Archive:
+http://www.ncbi.nlm.nih.gov/sra
+An alternative for downloading from the SRA is through DNAnexus:
+http://sra.dnanexus.com/
+
+The GS FLX+ shotgun and 8kb paired end reads will be made
+available through the SRA soon
+
+The MiSeq run can be downloaded here:
+http://www.hpa-bioinformatics.org.uk/lgp/resource/Sample280.fastq.gz
+
+The BGI 6kb mate-pair data for a related strain (TY-2482)
+can be found in the SRA under accession number SRX079805
+or through http://sra.dnanexus.com/experiments/SRX079805
+
