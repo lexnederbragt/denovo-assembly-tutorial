@@ -1,0 +1,28 @@
+Scripts used during the course that were not privided with the programs 
+
+A50.R and a50.py 
+Written by Nick Loman. 
+Plots so-called A50 plots
+
+assemblathon_stats.pl
+Original from the assemblathon1 website, modified by Lex Nederbragt
+Generates metrics for assembly fasta files
+
+fastq_trim_trailing_Bs.pl
+Written by Lex Nederbragt
+Removes bases and quality scores at the end of reads when the quality score 
+is a string of one or more 'B's
+
+interleave_pairs.py
+Original written by Peter Cock, found in this SeqAnswers thread
+http://seqanswers.com/forums/showthread.php?t=6140
+Modified by Nick Loman
+Generates an interleaved fastq file needed for velvet
+where read1 info is followed by the corresponding read2 info
+
+pair_up_reads.py
+Original written by Peter Cock, found in this SeqAnswers thread
+http://seqanswers.com/forums/showthread.php?t=6140
+Modified by Nick Loman
+Makes two files for reads that are in pairs (read1, read2)
+and a third file with 'singleton' reads (read1 or read2)
