@@ -5,8 +5,12 @@ Written by Nick Loman.
 Plots so-called A50 plots
 
 assemblathon_stats.pl
+assemblathon_stats_2.pl
 Original from the assemblathon1 website, modified by Lex Nederbragt
 Generates metrics for assembly fasta files
+The '_2' script does not rely on the FAlite perl module,
+however, this version has not been thoroughly tested with different
+fasta files, but I don't expect any problems with it...
 
 fastq_trim_trailing_Bs.pl
 Written by Lex Nederbragt
